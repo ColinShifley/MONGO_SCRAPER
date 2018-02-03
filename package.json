@@ -1,0 +1,33 @@
+{
+  "name": "mongo_scraper",
+  "version": "1.0.0",
+  "description": "Mongo_WebScraper_Activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangercowboy/MONGO_SCRAPER.git"
+  },
+  "author": "CCS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangercowboy/MONGO_SCRAPER/issues"
+  },
+  "homepage": "https://github.com/dangercowboy/MONGO_SCRAPER#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.2",
+    "request": "^2.83.0"
+  }
+}
+
+//Heroku app links
+//https://the--mongo--scraper.herokuapp.com/ | https://git.heroku.com/the--mongo--scraper.git
+
+//URI String that connects Mongoose to mLab
+//mongodb://heroku_bkq0ns0d:v9t1k6strunvv76lidd8pimegk@ds219098.mlab.com:19098/heroku_bkq0ns0d
